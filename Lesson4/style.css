@@ -154,6 +154,7 @@ padding-top:4rem;
 }
 
 #messages > .container > .row > .text-center> p{
+    font-size: 0.8rem;
     color:black!important;
 }
 
