@@ -51,10 +51,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+                        <a class="nav-link active" href="#anasayfa">Anasayfa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link active" href="#calışmalar">Çalışmalarım</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hakkımda">Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#haberler">Haberler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#contact">İletişim</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -134,7 +146,7 @@
     <!-- div.text-white>div.container>div.p-5.text-uppercase.display-4{Frontend Eğitimimize Hoşgeldiniz}+h4{Html5 Css3 JS React}+a.btn.btn-primary+a.btn.btn-danger+a.btn.btn-success -->
     <header id="header_id">
         <div class="text-white">
-            <div class="container text-center">
+            <div id="anasayfa" class="container text-center">
                 <div class="p-5 text-uppercase display-4">Frontend Eğitimimize Hoşgeldiniz</div>
                 <h4>HÜSEYİN ÖZTÜRK</h4>
                 <a href="https://www.linkedin.com/in/hüseyin-öztürk-75b920226/" class="btn btn-primary">Linkedin</a>
@@ -150,7 +162,7 @@
         <!-- messages start -->
         <!-- section#messages>div>h2.text-center.text-uppercase{Çalışmalarımız}^div.container>div.row>div.text-center.col-12.col-md-4.col-xl-3>i+h4{Html5}+p{lorem15}+button.btn.btn-primary{Daha fazla ..} -->
         <section id="messages">
-            <div>
+            <div id="calışmalar" >
                 <h2 class="myHeading">Çalışmalarım</h2>
             </div>
             <div class="container">
@@ -185,7 +197,7 @@
          <!-- parallax start -->
          <!-- section#parallax>div.container>div.row>h2.myHeading{Haberler}+p{lorem*12}+button.btn.btn-primary -->
          <section id="parallax">
-            <div class="container">
+            <div id="hakkımda" class="container">
                 <div class="row">
                     <h2 class="myHeading">Hakkımda</h2>
                     <p class="line-clamp20">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dolor accusantium ut et deserunt. Accusantium eius, dicta voluptates recusandae in possimus repellendus nesciunt, illum reiciendis nam veniam quam molestias tenetur.
@@ -213,7 +225,7 @@
          <!-- section#newspaper>div.container>div.row>h2.myHeading{Haberler}+p{lorem*12}+button.btn.btn-primary -->
          <section id="newspaper">
             <div class="container">
-                <div class="row">
+                <div id="haberler" class="row">
                     <h2 class="myHeading">Yeni Haberler</h2>
                     <p class="line-clamp20">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum dolor accusantium ut et deserunt. Accusantium eius, dicta voluptates recusandae in possimus repellendus nesciunt, illum reiciendis nam veniam quam molestias tenetur.
                     Molestias ab excepturi ex accusamus consectetur, consequuntur expedita! Aperiam sint corrupti dolorum aspernatur quidem explicabo officiis quas repellendus. Iste illo facilis error similique harum dolor cumque laudantium sapiente libero tempora.
@@ -237,7 +249,7 @@
 
           <section id="blog">
             <div class="container">
-                <div class="row">
+                <div id="blog" class="row">
                     <h2 class="myHeading">Blog</h2>
                 
                     <div class="col-md-3 mb-3">
@@ -381,7 +393,24 @@
           <!-- newspaper end -->
 
            <!-- newspaper start -->
-          <section id="contact"></section>
+          <section id="contact">
+            <div class="container">
+                <div id="contact" class="row">
+                    <h2 class="myHeading">İLETİŞİM</h2>
+                    <div class="col-md-6"> 
+                        <div class="map" style="background-color: red;">
+                            <p>MAP</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="contact" style="background-color: aqua;">
+                            <p>İLETİŞİM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </section>
            <!-- newspaper end -->
     </main>
    
@@ -394,7 +423,7 @@
     </footer>
     <!-- end footer codes -->
 
-    <a href="#navbar_id" id="back_top" class="btn btn-primary"><i class="fa-solid fa-arrow-up-long"></i></a>
+
 
     <!-- end codes -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

@@ -143,6 +143,7 @@ background-image: url("./img/header.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: 50% 50%;
+background-attachment: fixed;
 height:80vh;
 padding-top:4rem;
 }
