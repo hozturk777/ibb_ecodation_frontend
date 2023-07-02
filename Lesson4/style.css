@@ -195,6 +195,9 @@ padding-top:4rem;
 #blog{
 background-color: #b5b8ff;
 }
+.card-body{
+    border-radius: 15px;
+}
 
 
 /* Footer */
@@ -214,4 +217,65 @@ footer{
 
 #back_top:hover{
     opacity: 0.8;
+}
+
+
+/* Map */
+.map{   
+    background-color: #cfe2f3;/*d7d1d1*/
+    border-style: groove;
+}
+.map iframe{
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+.map p{
+    font-size: 25px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color: black!important;
+    text-align: center;
+}
+
+/* Contact */
+.contact{
+    background-color: #cfe2f3;
+    align-items: center;
+    border-style: groove;
+}
+#contact{
+    padding-top: 5px;
+    width: 90%;
+    background-color: #efecec;
+    position: relative;
+    margin: auto;
+}
+.contact p{
+    font-size: 25px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    color: black!important;
+    text-align: center;
+}
+.form{
+    width: 50%;
+    padding-top: 10px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+.form label{
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Times, serif, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+}
+.form input{
+    margin-top: 5px;
+    font-size: 14px;
+    float: right;
+    border-style: groove;
+}
+.form textarea{
+    border-radius: 10px;
 }
