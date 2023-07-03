@@ -137,6 +137,21 @@ p{
     color: #ffffff;
 }
 
+.dark_mod{
+    margin: auto;
+    width: auto;
+}
+
+.searchs input{
+    position: relative;
+    
+}
+
+.login a i{
+    position: absolute;
+    margin-top: -10px;
+}
+
 /* Header */
 header{
 background-image: url("./img/header.jpg");
