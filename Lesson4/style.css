@@ -138,7 +138,18 @@ p{
 }
 
 .dark_mod{
-    margin: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+.dark_mod button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: auto;
 }
 
@@ -147,9 +158,22 @@ p{
     
 }
 
-.login a i{
-    position: absolute;
-    margin-top: -10px;
+.login{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    width: auto;
+}
+
+.language{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    width: auto;   
 }
 
 /* Header */
@@ -195,6 +219,13 @@ padding-top:4rem;
     color:white!important;
 }
 
+#parallax div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* newspaper */
 #newspaper  {  
    height: 35rem;
@@ -203,6 +234,13 @@ padding-top:4rem;
 #newspaper p {  
     color:black!important;  
     text-align: justify;
+}
+
+#newspaper div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
