@@ -374,8 +374,19 @@ const condi6 = () => {
 // ÖDEV: 
 // Kullanıcı tarafından girilen bir sayının negatif mi, pozitif mi ? bunu yazan JS code yazınız.
 // (Dikkat: normal  function ile yazınız)
-
-
+const NUM = () => {
+    let num = prompt("Bir Sayı Giriniz");
+    if (num < 0){
+        console.log("Sayı Negatif");
+    }
+    else if(num >= 0){
+        console.log("Sayi Pozitif");
+    }
+    else{
+        console.log("Lütfen Sayı Giriniz");
+    }
+}
+NUM();
 
 // Kullanıcı tarafından girilen bir sayının tek mi, çift mi olduğunu yazan JS code yazınız.
 // (Dikkat:anonymous function ve ternary ile yazınız)
