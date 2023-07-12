@@ -391,23 +391,53 @@ const condi6 = () => {
 // Kullanıcı tarafından girilen bir sayının tek mi, çift mi olduğunu yazan JS code yazınız.
 // (Dikkat:anonymous function ve ternary ile yazınız)
 
-const NUM2 = () => {
-    let num = parseInt(prompt("Bir Sayı Giriniz"));
-    console.log((num%2 === 0)?"Sayı Çift":"Sayı Tek");
-}
-NUM2();
+// const NUM2 = () => {
+//     let num = parseInt(prompt("Bir Sayı Giriniz"));
+//     console.log((num%2 === 0)?"Sayı Çift":"Sayı Tek");
+// }
+// NUM2();
 
-let isOddEven = () => {
-    const result = 4;
-    if (result % 2 == 0)
-        console.log("çifttir");
-    else
-        console.log("tektir");
-}
+// let isOddEven = () => {
+//     const result = 4;
+//     if (result % 2 == 0)
+//         console.log("çifttir");
+//     else
+//         console.log("tektir");
+// }
 //isOddEven()
 
 // Kullanıcıdan alınan sayıya göre Haftanın günlerini switch-case ile JS code yazınız?
 // Örneğin: kullanıcı 1 girdi: 1=pazartesi yazacak
+const weekDayNumberToName =()=> {
+    const dayNum = prompt("(1-7). günleri öğrenmek için sayı giriniz.");
+    switch (dayNum){
+        case '1':
+            alert('Pazartesi');
+            break;
+        case '2':
+            alert('Salı');
+            break;
+        case '3':
+            alert("Çarşamba")
+            break;
+        case '4':
+            alert('Perşembe');
+            break;
+        case '5':
+            alert('Cuma');
+            break;
+        case '6':
+            alert('Cumartesi')
+            break;
+        case '7':
+            alert('Pazar')
+            break;
+        default:
+            alert('Lütfen Geçerli Aralıklarda Sayı Giriniz!');
+            break;
+    }
+}
+weekDayNumberToName();
 
 ////////////////////////////////////////////////////////
 // loop
